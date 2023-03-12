@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Calculator</title>
+
+</head>
+
+<body style="background-color:#f2f2f2;">
+
+
+
+           <div class="container-fluid divs" >
+          <br>
+            <br>
+            <div  class="row container-fluid rowsetter">
+        <h3 class="row  rowset">Calculator</h3>
+        <input id="input" class="row form-control forcontrol" type="text" placeholder="Enter number">
+        <br>
+        <div class="col-sm-9 col1">
+        <button onclick="PressButton(this)"class="btn-lg button btn1">1</button>
+        <button onclick="PressButton(this)"class="btn-lg btn2">2</button>
+        <button onclick="PressButton(this)"class="btn-lg btn3">3</button>
+        <button  onclick="PressButton(this)"class="btn-lg btn4">4</button>
+        <button onclick="PressButton(this)"class="btn-lg btn5">5</button>
+        <button  onclick="PressButton(this)"class="btn-lg btn6">6</button>
+        <button onclick="PressButton(this)"class="btn-lg btn7">7</button>
+        <button  onclick="PressButton(this)"class="btn-lg btn8">8</button>
+         <button onclick="PressButton(this)"class="btn-lg btn9">9</button>
+        <button  onclick="PressButton(this)"class="btn-lg btn10">0</button>
+            
+            
+         <button onclick="PressButton(this)"class="btn-lg btn11">+</button>
+   
+         <button onclick="PressButton(this)"class="btn-lg btn12">-</button>
+            
+         <button onclick="PressButton(this)"class="btn-lg btn13">*</button>
+        <button onclick="PressButton(this)" class="btn-lg btn14">/</button>
+        <button onclick="Square()" class="btn-lg btn15">x²</button>
+        <button onclick="PressButton(this)" class="btn-lg btn16">&#46;</button>
+        <button onclick="PressButton(this)" class="btn-lg btn17">&#40;</button>
+        <button onclick="PressButton(this)" class="btn-lg btn18">&#41;</button>
+         <button  onclick="Answer()" class="btn btn-lg ans">=</button>
+            </div>
+             <div class="col-sm-3 col2">
+                <button id="BackspaceBtn" class="btn btn19"><i class="fa-solid fa-delete-left"></i></button><br>
+              <button onclick="PressButton(this)" class="btn btn-lg btn20" >%</button><br>
+            <button onclick="PressButton(this)"  class="btn btn-lg btn21">x!</button><br>
+             <button onclick="ClearAll()" class="btn btn-lg btn22">C</button><br>
+           
+             </div>
+             <h2 style="visibility:hidden;">asd</h2>
+        </div>  </div>
+
+
+        
+        <script src="script.js"></script>
+</body>
+</html> 
